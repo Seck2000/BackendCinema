@@ -1,0 +1,281 @@
+{
+  "Routes": [
+    {
+      "SwaggerKey": "films",
+      "DownstreamPathTemplate": "/api/films/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/films/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "SwaggerKey": "films",
+      "DownstreamPathTemplate": "/api/films",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/films",
+      "UpstreamHttpMethod": [ "GET", "POST" ]
+    },
+    {
+      "SwaggerKey": "salles",
+      "DownstreamPathTemplate": "/api/salles/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/salles/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "SwaggerKey": "salles",
+      "DownstreamPathTemplate": "/api/salles",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/salles",
+      "UpstreamHttpMethod": [ "GET", "POST" ]
+    },
+    {
+      "SwaggerKey": "seances",
+      "DownstreamPathTemplate": "/api/seances/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/seances/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "SwaggerKey": "seances",
+      "DownstreamPathTemplate": "/api/seances",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/seances",
+      "UpstreamHttpMethod": [ "GET", "POST" ]
+    },
+    {
+      "SwaggerKey": "categoriesage",
+      "DownstreamPathTemplate": "/api/categoriesage/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/categoriesage/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "SwaggerKey": "categoriesage",
+      "DownstreamPathTemplate": "/api/categoriesage",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/categoriesage",
+      "UpstreamHttpMethod": [ "GET", "POST" ]
+    },
+    {
+      "SwaggerKey": "auth",
+      "DownstreamPathTemplate": "/api/auth/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5002
+        }
+      ],
+      "UpstreamPathTemplate": "/api/auth/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "SwaggerKey": "reservations",
+      "DownstreamPathTemplate": "/api/reservations/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5003
+        }
+      ],
+      "UpstreamPathTemplate": "/api/reservations/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "SwaggerKey": "reservations",
+      "DownstreamPathTemplate": "/api/reservations",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5003
+        }
+      ],
+      "UpstreamPathTemplate": "/api/reservations",
+      "UpstreamHttpMethod": [ "GET", "POST" ]
+    },
+    {
+      "SwaggerKey": "panier",
+      "DownstreamPathTemplate": "/api/panier/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5003
+        }
+      ],
+      "UpstreamPathTemplate": "/api/panier/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "SwaggerKey": "panier",
+      "DownstreamPathTemplate": "/api/panier",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5003
+        }
+      ],
+      "UpstreamPathTemplate": "/api/panier",
+      "UpstreamHttpMethod": [ "GET", "POST" ]
+    },
+    {
+      "SwaggerKey": "payment",
+      "DownstreamPathTemplate": "/api/payment/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5004
+        }
+      ],
+      "UpstreamPathTemplate": "/api/payment/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST" ]
+    },
+    {
+      "SwaggerKey": "payment",
+      "DownstreamPathTemplate": "/api/payment",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5004
+        }
+      ],
+      "UpstreamPathTemplate": "/api/payment",
+      "UpstreamHttpMethod": [ "GET", "POST" ]
+    },
+    {
+      "SwaggerKey": "notifications",
+      "DownstreamPathTemplate": "/api/notifications/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5005
+        }
+      ],
+      "UpstreamPathTemplate": "/api/notifications/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST" ]
+    },
+    {
+      "SwaggerKey": "notifications",
+      "DownstreamPathTemplate": "/api/notifications",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5005
+        }
+      ],
+      "UpstreamPathTemplate": "/api/notifications",
+      "UpstreamHttpMethod": [ "GET", "POST" ]
+    }
+  ],
+  "SwaggerEndPoints": [
+    {
+      "Key": "films",
+      "Config": [
+        {
+          "Name": "Film Service",
+          "Version": "v1",
+          "Url": "http://localhost:5001/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "auth",
+      "Config": [
+        {
+          "Name": "Auth Service",
+          "Version": "v1",
+          "Url": "http://localhost:5002/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "reservations",
+      "Config": [
+        {
+          "Name": "Reservation Service",
+          "Version": "v1",
+          "Url": "http://localhost:5003/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "payment",
+      "Config": [
+        {
+          "Name": "Payment Service",
+          "Version": "v1",
+          "Url": "http://localhost:5004/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "notifications",
+      "Config": [
+        {
+          "Name": "Notification Service",
+          "Version": "v1",
+          "Url": "http://localhost:5005/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5000"
+  }
+}
+

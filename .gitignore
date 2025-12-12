@@ -1,0 +1,37 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDE
+.idea/
+*.swp
+*~
+
+# NuGet
+*.nupkg
+packages/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Secrets (ne pas committer les vrais secrets!)
+appsettings.Development.json
+appsettings.*.json
+!appsettings.json
+
