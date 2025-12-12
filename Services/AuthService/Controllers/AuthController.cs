@@ -163,7 +163,8 @@ namespace AuthService.Controllers
             });
         }
 
-        // GET: api/Auth/profile
+        // GET: api/Auth/profile (protégé par JWT)
+        [Microsoft.AspNetCore.Authorization.Authorize]
         [HttpGet("profile")]
         public async Task<ActionResult<UserDto>> GetProfile()
         {
