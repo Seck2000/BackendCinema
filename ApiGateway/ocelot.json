@@ -224,22 +224,22 @@
   ],
   "SwaggerEndPoints": [
     {
-      "Key": "films",
+      "Key": "auth",
       "Config": [
         {
-          "Name": "Film Service",
+          "Name": "🔐 Authentification",
           "Version": "v1",
-          "Url": "http://localhost:5001/swagger/v1/swagger.json"
+          "Url": "http://localhost:5002/swagger/v1/swagger.json"
         }
       ]
     },
     {
-      "Key": "auth",
+      "Key": "films",
       "Config": [
         {
-          "Name": "Auth Service",
+          "Name": "🎬 Films & Salles",
           "Version": "v1",
-          "Url": "http://localhost:5002/swagger/v1/swagger.json"
+          "Url": "http://localhost:5001/swagger/v1/swagger.json"
         }
       ]
     },
@@ -247,7 +247,7 @@
       "Key": "reservations",
       "Config": [
         {
-          "Name": "Reservation Service",
+          "Name": "📅 Réservations & Panier",
           "Version": "v1",
           "Url": "http://localhost:5003/swagger/v1/swagger.json"
         }
@@ -257,7 +257,7 @@
       "Key": "payment",
       "Config": [
         {
-          "Name": "Payment Service",
+          "Name": "💳 Paiement",
           "Version": "v1",
           "Url": "http://localhost:5004/swagger/v1/swagger.json"
         }
@@ -267,7 +267,7 @@
       "Key": "notifications",
       "Config": [
         {
-          "Name": "Notification Service",
+          "Name": "🔔 Notifications",
           "Version": "v1",
           "Url": "http://localhost:5005/swagger/v1/swagger.json"
         }
@@ -278,4 +278,3 @@
     "BaseUrl": "http://localhost:5000"
   }
 }
-
